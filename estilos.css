@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+        
+}
+
+.parrafo{
+    color:black;
+    font-family: helvetica;
+    font-size: 20px;
+    width: 700px;
+    margin: 70px 20px;
+    background-color: rgb(238, 234, 226);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.mapa{
+    position: absolute;
+    left: 800px;
+    top:170px;
+    background-color: #1a2537;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.imagen1{
+    margin:20px 20px;
+    position: relative;
+    top: 30px;
+    width: 345px;
+    border-radius: 20px;
+    padding:20px;
+   
+}
+
+nav{
+    height: 50px;
+    background-color: #1a2537;
+    z-index: 1;
+}
+
+nav .logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    color: white;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    padding: 0 15px;
+    display: block;
+    line-height:50px;
+    font-size: 18px;
+    background:#1a2537
+}
+
+nav ul li a:hover,
+nav ul li a.activar{
+    color: red ;
+}
+
+nav ul li:hover>ul{
+    top:50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+
+
+
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    border-top:3px white solid ;
+    opacity: 0 ;
+    visibility: hidden;
+}
+
+nav ul ul li{
+    width: 150px;
+    display:list-item;
+    position: relative;
+    border:1px white solid;
+    border-top:none;
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
+
+
+
+
+
+section{
+    width: 50%;
+    
+    border: #18bc9c;
+    inline-size: 20px;
+}
+
+div.galeria{
+    margin:50px 130px;
+    box-shadow: 0px 4px 8px 0 black;
+    float: left;
+    width: 400px;
+    
+}
+
+div.galeria img{
+    
+    width: 100%;
+    height: auto;
+}
+
+div.galeria :hover{ 
+    border:1px solid black;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #18bc9c;
+    padding:10px;
+}
+.construccion{
+    background-image: url(imagenes/construccion.jpg);
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin:auto;
+    border-radius: 5px;
+    background-color: rgb(139, 139, 139);
+    width:100%;
+    bottom: 0;
+}
+
+.card{
+    background-color: #1a2537;
+    margin: 5% 5%;
+    display: flex; 
+    float: left;   
+}
+
+.dtad{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.peticion{
+    border-radius: 20px;
+    color:#1a2537;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    width: 50%;
+    margin: 10% auto;
+    padding: 30px;
+
+}
